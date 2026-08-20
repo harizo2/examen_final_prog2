@@ -1,4 +1,4 @@
-package org.example.examen_final_prog2.Repository;
+package main.java.org.example.examen_final_prog2.Repository;
 
 import org.springframework.stereotype.Component;
 

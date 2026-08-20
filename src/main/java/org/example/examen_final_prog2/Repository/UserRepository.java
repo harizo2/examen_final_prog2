@@ -1,6 +1,7 @@
-package org.example.examen_final_prog2.Repository;
+package main.java.org.example.examen_final_prog2.Repository;
 
-import org.example.examen_final_prog2.modul.User;
+
+import main.java.org.example.examen_final_prog2.modul.User;
 import org.springframework.stereotype.Repository;
 
 import java.sql.DriverManager;
@@ -21,4 +22,5 @@ public class UserRepository {
                 resultSet.getString("phone")
         );
     }
+
 }

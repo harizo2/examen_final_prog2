@@ -1,13 +1,17 @@
 package main.java.org.example.examen_final_prog2.modul;
 
-import lombok.AllArgsConstructor;
-
 import java.math.BigDecimal;
 import java.time.Instant;
 
-@AllArgsConstructor
 public class Expense extends CashFlow {
     private String reason;
     private Frequency Frenquency;
+
+    public Expense(String id, Instant createdAt, BigDecimal amount, Frequency frenquency, String reason) {
+        super(id, createdAt, amount);
+        Frenquency = frenquency;
+        this.reason = reason;
+    }
+
 
 }

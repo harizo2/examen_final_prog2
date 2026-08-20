@@ -1,6 +1,6 @@
-package org.example.examen_final_prog2.Service;
+package main.java.org.example.examen_final_prog2.Service;
 
-import org.example.examen_final_prog2.Repository.UserRepository;
+import main.java.org.example.examen_final_prog2.Repository.UserRepository;
 import org.springframework.stereotype.Service;
 
 @Service
