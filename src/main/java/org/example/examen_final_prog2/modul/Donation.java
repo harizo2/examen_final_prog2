@@ -1,4 +1,9 @@
-package org.example.examen_final_prog2.modul;
+package main.java.org.example.examen_final_prog2.modul;
 
-public class Donation extends CashFlow{
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
+public class Donation extends CashFlow {
+    private String comment;
+
 }

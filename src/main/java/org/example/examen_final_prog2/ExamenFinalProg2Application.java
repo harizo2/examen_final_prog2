@@ -1,4 +1,4 @@
-package org.example.examen_final_prog2;
+package main.java.org.example.examen_final_prog2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
