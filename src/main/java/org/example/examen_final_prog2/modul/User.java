@@ -2,6 +2,8 @@ package main.java.org.example.examen_final_prog2.modul;
 
 import lombok.AllArgsConstructor;
 
+import java.util.List;
+
 @AllArgsConstructor
 public class User {
     private String id;
